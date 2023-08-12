@@ -1,8 +1,8 @@
 import Logger from "https://deno.land/x/logger/logger.ts";
 
 export abstract class DiscordPlugin {
-    logger: PluginLogger;
-    name: string;
+    protected logger: PluginLogger;
+    public readonly name: string;
     
     constructor(name: string) {
         this.logger = new PluginLogger(name);
