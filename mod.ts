@@ -1,1 +1,1 @@
-export { Plugin, PluginLogger } from './plugins.ts';
+export { DiscordPlugin, PluginLogger } from './plugins.ts';
